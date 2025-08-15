@@ -17,6 +17,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
 
 <body>
@@ -32,8 +36,11 @@
         <a href="#whoIAm">
           <li class="nav-item">Who</li>
         </a>
+        <a href="#academics">
+          <li class="nav-item">Academics</li>
+        </a>
         <a href="#achievements">
-          <li class="nav-item">Achievements</li>
+          <li class="nav-item">Extracurriculars</li>
         </a>
         <a href="#socials">
           <li class="nav-item">Socials</li>
@@ -42,14 +49,15 @@
     </div>
   </nav>
 
-  <div class="container-fluid">
+  <div id="its_MEEE" class="container-fluid">
     <div class="row num1">
       <div class="col-sm-6 text-center">
         <br><br><br><br><br><br><br><br><br><br><br><br>
-        <h2>bob and felix</h2>
+        <h2 class="animate__animated animate__jackInTheBox">its me</h2>
       </div>
-      <div class="col-sm-6 text-center">
-        <img src="images/og-bob-n-felix-transparent.png">
+      <div class="col-sm-6 text-right">
+        <br><br><br>
+        <img id="z-img" src="images/z-transparent.PNG">
       </div>
 
     </div>
@@ -60,8 +68,14 @@
     <p>*insert life story*</p>
   </div>
   <br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="paragraph text-center" id="academics">
+    <h2>Academics</h2>
+    <p>me very smart, pls accept me</p>
+    <a target="_blank" href="images/geometry transcript.pdf">click here to see my beautiful A's</a>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
   <div class="paragraph text-center" id="achievements">
-    <h2>Achievements</h2>
+    <h2>Extracurriculars</h2>
 
 
     <div id="carousel" class="carousel slide" data-ride="false">
@@ -70,6 +84,7 @@
           <div class="row">
             <div class="col-sm-6 text-center">
               <p>activity 1</p>
+              <button data-toggle="modal" data-target="#activ1">See more</button>
             </div>
             <div class="col-sm-6 text-center">
               <img src="images/og-bob-n-felix-transparent.png">
@@ -92,6 +107,23 @@
         </a>
       </div>
 
+
+
+      <div id="activ1" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              Swimming
+            </div>
+            <div class="modal-body">
+              I swim :D
+            </div>
+            <div class="modal-footer">
+              <button class="btn" data-dismiss="modal">Done</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
     <br><br><br><br><br><br><br><br><br><br><br><br>
