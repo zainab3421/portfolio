@@ -2,6 +2,14 @@ html{
     scroll-behavior: smooth;
 }
 
+#its_MEEE{
+    background-color: bisque;
+}
+
+#z-img{
+    width: 600px;
+}
+
 .navbar{
     background-color: cadetblue;
 }
