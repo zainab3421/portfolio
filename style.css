@@ -3,7 +3,7 @@ html{
 }
 
 #its_MEEE{
-    background-color: bisque;
+    background-color: rgb(211, 230, 253);
 }
 
 #z-img{
@@ -25,4 +25,17 @@ html{
 
 #carousel{
     background-color: rgb(170, 211, 238);
+}
+
+#swim{
+    background-color:rgb(173, 237, 237);
+}
+
+#challengers{
+    background-color: rgb(237, 183, 183);
+}
+
+.activ_img{
+    height:500px;
+    text-align: left;
 }
