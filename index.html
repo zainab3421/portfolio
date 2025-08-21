@@ -17,10 +17,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
@@ -53,7 +50,8 @@
     <div class="row num1">
       <div class="col-sm-6 text-center">
         <br><br><br><br><br><br><br><br><br><br><br><br>
-        <h2 class="animate__animated animate__jackInTheBox">its me</h2>
+        <h2 class="animate__animated animate__jackInTheBox">hey there! i'm zainab</h2>
+        <h4>Nice to meet you!</h4>
       </div>
       <div class="col-sm-6 text-right">
         <br><br><br>
@@ -65,13 +63,22 @@
   <br><br><br><br><br><br><br><br><br><br><br><br>
   <div class="paragraph text-center" id="whoIAm">
     <h2>Who I Am</h2>
-    <p>*insert life story*</p>
+    <h6>Hi! I’m Zainab, a grade 10 student with a passion for computer sciences, robotics, engineering, and STEM in
+      general. I love working for causes that truly inspire, help, and impact others <br> Outside of academics, I enjoy
+      swimming, singing, and painting, which helps me stay balanced and creative. My goal is to make a future for myself
+      in STEM!</h6>
   </div>
   <br><br><br><br><br><br><br><br><br><br><br><br>
-    <div class="paragraph text-center" id="academics">
+  <div class="paragraph text-center" id="academics">
     <h2>Academics</h2>
-    <p>me very smart, pls accept me</p>
-    <a target="_blank" href="images/geometry transcript.pdf">click here to see my beautiful A's</a>
+    <p>I’m currently a sophomore at the American School of Doha, where I challenge myself with advanced AP coursework,
+      with aims to be an AP Scholar and work toward an AP Capstone degree. <br><br>
+      • GPA: 3.98 (weighted)<br><br>
+      • Strengths: Computer Science<br><br>
+      • Notable Courses: AP Human Geography (scored 5), <br>current enrollment in AP Precalculus, AP Computer Science
+      Principles, and AP World History</p>
+    <a target="_blank" href="images/geometry transcript.pdf">External Geometry Transcript</a>
+    <p>*currently no access to updated transcript due to pending AP score grade updates</p>
   </div>
   <br><br><br><br><br><br><br><br><br><br><br><br>
   <div class="paragraph text-center" id="achievements">
@@ -81,21 +88,49 @@
     <div id="carousel" class="carousel slide" data-ride="false">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <div class="row">
+          <div class="row" id="swim">
             <div class="col-sm-6 text-center">
-              <p>activity 1</p>
+              <br><br>
+              <h3>Swimming</h3>
+              <br>
+              <h6>I’ve been a competitive swimmer for 2 years, racing across Qatar and pushing my limits in every practice. Swimming has taught me discipline, resilience, and how to balance intense training with school…</h6>
+              <br>
               <button data-toggle="modal" data-target="#activ1">See more</button>
             </div>
             <div class="col-sm-6 text-center">
-              <img src="images/og-bob-n-felix-transparent.png">
+              <img class = "activ_img" src="images/hydra_img.jpg">
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="images/og-bob-n-felix-transparent.png">
+          <div class="row" id="robotics">
+            <div class="col-sm-6 text-center">
+              <br><br>
+              <h3>Robotics (FIRST Global Challenge + FIRST Tech Challenge)</h3>
+              <br>
+              <h6>As Engineering Notebook Lead for Team Qatar in the FIRST Global Challenge, I document our designs and collaborate on complex robotics projects. I’ve also competed in national robotics competitions (FTC), where teamwork and problem-solving led our new team to earn a notable award…</h6>
+              <br>
+              <button data-toggle="modal" data-target="#activ2">See more</button>
+            </div>
+            <div class="col-sm-6 text-center">
+              <img class = "activ_img" src="images/fgc_img.jpg">
+            </div>
+          </div>
         </div>
         <div class="carousel-item">
-          <img src="images/og-bob-n-felix-transparent.png">
+          <div class="row" id="challengers">
+            <div class="col-sm-6 text-center">
+              <br><br>
+              <h3>Challengers - Community Service</h3>
+              <br>
+              <h6>As a leader in Challengers, I’ve had the chance to support athletes with special needs and guide volunteers on the field — an experience that’s been both challenging and incredibly rewarding. It even led to a recognition I’m really proud of…</h6>
+              <br>
+              <button data-toggle="modal" data-target="#activ3">See more</button>
+            </div>
+            <div class="col-sm-6 text-center">
+              <img class = "activ_img" src="images/challengers_img.jpg">
+            </div>
+          </div>
         </div>
 
         <a href="#carousel" class="carousel-control-prev" data-slide="prev">
@@ -116,7 +151,57 @@
               Swimming
             </div>
             <div class="modal-body">
-              I swim :D
+                Competitive swimmer for 2 years, competed in various competitions across Qatar. Beyond physical
+                endurance, swimming has shaped my discipline, resilience, and time management — balancing daily training
+                with school and other commitments. It’s also been an outlet for self-improvement, where every practice
+                is a chance to push my limits.
+            </div>
+            <div class="modal-footer">
+              <button class="btn" data-dismiss="modal">Done</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="activ2" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              Robotics
+            </div>
+            <div class="modal-body">
+                As part of Team Qatar for the FIRST Global Challenge, I serve as the Engineering Notebook Lead,
+                documenting our design process, technical decisions, and competition strategy. I collaborate closely
+                with teammates on mechanical design, coding, and systems integration while ensuring our work meets
+                international standards. Participating on this level has taught me adaptability, project management, and
+                how to communicate complex engineering ideas clearly.
+                <br> I also actively contribute to my school’s robotics and engineering clubs, where I focus on coding
+                our robot, while aiding in building. I’ve competed in the national FIRST Tech Challenge (FTC), gaining
+                experience in problem-solving under pressure and teamwork in high-stakes environments, and being one of
+                the members of a new team that recieved the Finalist Award by placing as the second alliance.
+            </div>
+            <div class="modal-footer">
+              <button class="btn" data-dismiss="modal">Done</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="activ3" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              Challengers
+            </div>
+            <div class="modal-body">
+                I’m a club leader in Challengers, a program that pairs volunteers with children and young adults with
+                special needs to play baseball in an inclusive, supportive environment. In this role, I help organize
+                games, guide volunteers, and support athletes directly on the field. For my contributions, I was honored
+                with a Service Award, recognizing my commitment to fostering inclusion and community through sports.
+                <br>
+                Beyond Challengers, I’m also developing an autism support app, designed to provide families and
+                individuals with better tools for communication and daily life. Both of these experiences fuel my
+                passion for combining leadership, empathy, and technology to create meaningful impact.
             </div>
             <div class="modal-footer">
               <button class="btn" data-dismiss="modal">Done</button>
