@@ -1,3 +1,11 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+    text-align: center;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -12,6 +20,10 @@ html{
 
 .navbar{
     background-color: cadetblue;
+}
+
+.menu{
+    margin-right: 0;
 }
 
 .nav-item{
@@ -38,4 +50,9 @@ html{
 .activ_img{
     height:500px;
     text-align: left;
+}
+
+.paragraph{
+    text-align: center;
+    width: 600px;
 }
